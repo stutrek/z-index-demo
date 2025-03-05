@@ -33,6 +33,16 @@ const config: Config = {
                             border: '1px solid theme("colors.gray.300")',
                             'border-radius': '0.5rem', // Equivalent to rounded-lg
                         },
+                        'li p': {
+                            margin: '0',
+                        },
+                        'li, p + ul': {
+                            margin: '0.15rem 0',
+                        },
+                        'max-width': 'none',
+                        'background-color': 'white',
+                        padding: '1rem',
+                        margin: '1rem 0',
                     },
                 },
             }),
